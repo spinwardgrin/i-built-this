@@ -2,6 +2,12 @@
 
 My first repo. I built this with my dad.
 
+Main file: `pages/IMadeThis.vue`
+
+Firebase function for Gemini chatbot: `functions/index.ts`
+
+### Add firebaseConfig object in "firebase.ts"
+
 ## Install the dependencies
 
 ```bash
@@ -9,8 +15,6 @@ yarn
 # or
 npm install
 ```
-
-### Add firebaseConfig object in "firebase.ts"
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 
@@ -43,3 +47,15 @@ quasar build
 ### Customize the configuration
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+### Install Firebase CLI
+
+```bash
+npm install -g firebase-tools
+```
+
+### Deploy the firebase functions
+
+```bash
+firebase deploy --only functions
+```
