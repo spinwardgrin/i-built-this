@@ -1,6 +1,6 @@
 # i-built-this
 
-My first repo.
+My first repo. I built this with my dad.
 
 ## Install the dependencies
 
