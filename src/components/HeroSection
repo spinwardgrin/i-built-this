@@ -1,0 +1,129 @@
+<template>
+  <div class="tw-relative tw-isolate tw-overflow-hidden tw-bg-gray-900">
+    <svg
+      class="tw-absolute tw-inset-0 tw--z-10 tw-h-full tw-w-full tw-stroke-white/10 tw-[mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+      aria-hidden="true"
+    >
+      <defs>
+        <pattern
+          id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
+          width="200"
+          height="200"
+          x="50%"
+          y="-1"
+          patternUnits="userSpaceOnUse"
+        >
+          <path d="M.5 200V.5H200" fill="none" />
+        </pattern>
+      </defs>
+      <svg x="50%" y="-1" class="tw-overflow-visible tw-fill-gray-800/20">
+        <path
+          d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
+          stroke-width="0"
+        />
+      </svg>
+      <rect
+        width="100%"
+        height="100%"
+        stroke-width="0"
+        fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)"
+      />
+    </svg>
+    <div
+      class="tw-absolute tw-left-[calc(50%-4rem)] tw-top-10 tw--z-10 tw-transform-gpu tw-blur-3xl tw-sm:left-[calc(50%-18rem)] tw-lg:left-48 tw-lg:top-[calc(50%-30rem)] tw-xl:left-[calc(50%-24rem)]"
+      aria-hidden="true"
+    >
+      <div
+        class="tw-aspect-[1108/632] tw-w-[69.25rem] tw-bg-gradient-to-r tw-from-[#80caff] tw-to-[#4f46e5] tw-opacity-20"
+        style="
+          clip-path: polygon(
+            73.6% 51.7%,
+            91.7% 11.8%,
+            100% 46.4%,
+            97.4% 82.2%,
+            92.5% 84.9%,
+            75.7% 64%,
+            55.3% 47.5%,
+            46.5% 49.4%,
+            45% 62.9%,
+            50.3% 87.2%,
+            21.3% 64.1%,
+            0.1% 100%,
+            5.4% 51.1%,
+            21.4% 63.9%,
+            58.9% 0.2%,
+            73.6% 51.7%
+          );
+        "
+      />
+    </div>
+    <div
+      class="tw-mx-auto tw-max-w-7xl tw-px-6 tw-pb-24 tw-pt-10 tw-sm:pb-32 tw-lg:flex tw-lg:px-8 tw-lg:py-40"
+    >
+      <div class="tw-mx-auto tw-max-w-2xl tw-flex-shrink-0 tw-lg:mx-0 tw-lg:max-w-xl tw-lg:pt-8">
+        <img
+          class="tw-h-11"
+          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=500"
+          alt="Your Company"
+        />
+        <div class="tw-mt-24 tw-sm:mt-32 tw-lg:mt-16">
+          <a href="#" class="tw-inline-flex tw-space-x-6">
+            <span
+              class="tw-rounded-full tw-bg-indigo-500/10 tw-px-3 tw-py-1 tw-text-sm tw-font-semibold tw-leading-6 tw-text-indigo-400 tw-ring-1 tw-ring-inset tw-ring-indigo-500/20"
+              >What's new</span
+            >
+            <span
+              class="tw-inline-flex tw-items-center tw-space-x-2 tw-text-sm tw-font-medium tw-leading-6 tw-text-gray-300"
+            >
+              <span>Just shipped v1.0</span>
+              <ChevronRightIcon
+                class="tw-h-5 tw-w-5 tw-text-gray-500"
+                aria-hidden="true"
+              />
+            </span>
+          </a>
+        </div>
+        <h1
+          class="tw-mt-10 tw-text-4xl tw-font-bold tw-tracking-tight tw-text-white tw-sm:text-6xl"
+        >
+          Deploy to the cloud with confidence
+        </h1>
+        <p class="tw-mt-6 tw-text-lg tw-leading-8 tw-text-gray-300">
+          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
+          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
+          aliqua.
+        </p>
+        <div class="tw-mt-10 tw-flex tw-items-center tw-gap-x-6">
+          <a
+            href="#"
+            class="tw-rounded-md tw-bg-indigo-500 tw-px-3.5 tw-py-2.5 tw-text-sm tw-font-semibold tw-text-white tw-shadow-sm hover:tw-bg-indigo-400 focus-visible:tw-outline focus-visible:tw-outline-2 focus-visible:tw-outline-offset-2 focus-visible:tw-outline-indigo-400"
+            >Get started</a
+          >
+          <a href="#" class="tw-text-sm tw-font-semibold tw-leading-6 tw-text-white"
+            >Learn more <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </div>
+      <div
+        class="tw-mx-auto tw-mt-16 tw-flex tw-max-w-2xl tw-sm:mt-24 tw-lg:ml-10 tw-lg:mr-0 tw-lg:mt-0 tw-lg:max-w-none tw-lg:flex-none tw-xl:ml-32"
+      >
+        <div class="tw-max-w-3xl tw-flex-none tw-sm:max-w-5xl tw-lg:max-w-none">
+          <img
+            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            alt="App screenshot"
+            width="2432"
+            height="1442"
+            class="tw-w-[76rem] tw-rounded-md tw-bg-white/5 tw-shadow-2xl tw-ring-1 tw-ring-white/10"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ChevronRightIcon } from '@heroicons/vue/20/solid';
+</script>
+
+<style scoped></style>
+

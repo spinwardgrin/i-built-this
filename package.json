@@ -1,0 +1,50 @@
+{
+  "name": "i-built-this",
+  "version": "1.0",
+  "description": "My first repo",
+  "productName": "I built this",
+  "author": "anonymous",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
+    "@headlessui/vue": "^1.7.17",
+    "@heroicons/vue": "^2.1.1",
+    "@quasar/extras": "^1.16.4",
+    "@vueuse/core": "^10.8.0",
+    "firebase": "^10.8.0",
+    "pinia": "^2.0.11",
+    "quasar": "^2.8.0",
+    "simplex-noise": "^4.0.1",
+    "typewriter-effect": "^2.21.0",
+    "vue": "^3.2.29",
+    "vue-router": "^4.0.12",
+    "vuefire": "^3.1.23"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.4.3",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "unocss": "^0.58.4",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
